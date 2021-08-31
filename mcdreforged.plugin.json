@@ -1,18 +1,22 @@
 {
-	"id": "here",
-	"version": "1.2.0",
-	"name": "Here",
+	"id": "here_and_where",
+	"version": "1.0.0",
+	"name": "HereAndWhere",
 	"description": {
-		"en_us": "Broadcast your position and high light yourself",
-		"zh_cn": "一显示坐标并高亮玩家"
+		"en_us": "Broadcast your position and high light yourself, or query other player's position",
+		"zh_cn": "广播自己的坐标并高亮, 或者查询其他玩家坐标"
 	},
 	"author": [
 		"Fallen_Breath",
 		"nathan21hz",
-		"Ra1ny_Yuki"
+		"Ra1ny_Yuki",
+		"YehowahLiu"
 	],
-	"entrypoint": "here.entry",
-	"link": "https://github.com/TISUnion/Here",
+	"dependencies": {
+		"minecraft_data_api": ">=1.4.0"
+	},
+	"entrypoint": "here_and_where.entry",
+	"link": "https://github.com/FAS-Server/HereAndWhere",
 	"resources": [
 		"LICENSE"
 	]

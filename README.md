@@ -1,9 +1,12 @@
-Here
+Here And Where
 -------
 
 一个 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) 的插件
 
 当玩家输入 `!!here` 时，玩家的坐标将被显示并且将被发光效果高亮
+
+当玩家输入 `!!where <玩家名>` 时，指定玩家的坐标将被显示
+
 
 部分特性可由配置文件控制，配置文件默认位置`config/here.json`，加载一次后会自动生成, 修改配置文件之后需要使用`!!MCDR plg reload here`重载后生效
 
